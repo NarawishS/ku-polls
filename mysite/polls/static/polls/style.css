@@ -1,6 +1,5 @@
 li a {
     color: green;
+    font-size: 120%
 }
-body {
-    background: black url("https://media1.tenor.com/images/3feb44f9abb458858e8ecfd91f2ea627/tenor.gif?itemid=13859017") repeat;
-}
+body { background-color: powderblue }
