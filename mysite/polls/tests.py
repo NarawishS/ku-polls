@@ -36,6 +36,49 @@ class QuestionModelTests(TestCase):
         recent_question = Question(pub_date=time)
         self.assertIs(recent_question.was_published_recently(), True)
 
+    def test_is_published_with_future_question(self):
+        """is_published() returns False for questions whose pub_date is in the future"""
+        time = timezone.now() + datetime.timedelta(days=30)
+        future_question = Question(pub_date=time)
+        self.assertFalse(future_question.is_published(), "is_published should be False because it's not release yet")
+
+    def test_is_published_with_old_question(self):
+        """is_published() returns True for questions whose pub_date is in the past"""
+        time = timezone.now() - datetime.timedelta(days=30)
+        future_question = Question(pub_date=time)
+        self.assertTrue(future_question.is_published(), "is_published should be False because it's release")
+
+    def test_is_published_with_recent_question(self):
+        """is_published() returns True for questions whose pub_date is in the past"""
+        time = timezone.now()
+        future_question = Question(pub_date=time)
+        self.assertTrue(future_question.is_published(), "is_published should be True because it's release")
+
+    def test_can_vote_with_future_question(self):
+        """can_vote() returns False for questions whose pub_date is in the future"""
+        time = timezone.now() + datetime.timedelta(days=30)
+        future_question = Question(pub_date=time)
+        self.assertFalse(future_question.can_vote(), "can_vote should be False because it's not release yet")
+
+    def test_can_vote_with_old_question_and_not_end_yet(self):
+        """can_vote() returns True for questions whose pub_date is in the past and is not closed"""
+        time = timezone.now()
+        future_question = Question(pub_date=time - timezone.timedelta(days=30),
+                                   end_date=time + timezone.timedelta(days=30))
+        self.assertTrue(future_question.can_vote(), "can_vote should be True because it's release and not closed")
+
+    def test_can_vote_with_old_question_and_is_end(self):
+        """can_vote() returns False for questions whose pub_date is in the past and is closed"""
+        time = timezone.now() - timezone.timedelta(days=30)
+        future_question = Question(pub_date=time, end_date=time)
+        self.assertFalse(future_question.can_vote(), "can_vote should be False because it's closed")
+
+    def test_can_vote_with_recent_question_and_not_end_yet(self):
+        """can_vote() returns True for questions whose pub_date is in the past and is not closed"""
+        time = timezone.now()
+        future_question = Question(pub_date=time, end_date=time + timezone.timedelta(days=30))
+        self.assertTrue(future_question.can_vote(), "can_vote should be True because it's release and not closed")
+
 
 def create_question(question_text, days):
     """
@@ -44,7 +87,8 @@ def create_question(question_text, days):
     in the past, positive for questions that have yet to be published).
     """
     time = timezone.now() + datetime.timedelta(days=days)
-    return Question.objects.create(question_text=question_text, pub_date=time)
+    end_date = time + datetime.timedelta(days=30)
+    return Question.objects.create(question_text=question_text, pub_date=time, end_date=end_date)
 
 
 class QuestionIndexViewTests(TestCase):
