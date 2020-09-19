@@ -1,9 +1,27 @@
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+</style>
 <h1>{{ question.question_text }}</h1>
+<table>
+    <tr>
+        <th>Choices</th>
+        <th>votes</th>
+    </tr>
+    {% for choice in question.choice_set.all %}
+    <tr>
+        <td>{{ choice.choice_text }}</td>
+        <td>{{ choice.votes }}</td>
+    </tr>
+    {% endfor %}
+</table>
 
-<ul>
-{% for choice in question.choice_set.all %}
-    <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
-{% endfor %}
-</ul>
-
+{% if question.can_vote %}
 <a href="{% url 'polls:detail' question.id %}">Vote again?</a>
+{% else %}
+<p>voting period has end</p>
+{% endif %}
+<a href="/polls">back to polls page</a>
