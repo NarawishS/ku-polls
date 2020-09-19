@@ -4,6 +4,14 @@
         border-collapse: collapse;
         padding: 10px;
     }
+
+    a {
+        padding: 2px;
+    }
+
+    body {
+        background-color: #f8f8ff;
+    }
 </style>
 <h1>{{ question.question_text }}</h1>
 <table>
@@ -24,4 +32,4 @@
 {% else %}
 <p>voting period has end</p>
 {% endif %}
-<a href="/polls">back to polls page</a>
+<a href="{% url 'polls:index' %}">back to polls page</a>

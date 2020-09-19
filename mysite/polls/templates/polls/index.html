@@ -1,5 +1,13 @@
-{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+<style>
+    a {
+        font-size: 120%;
+        padding: 2px;
+    }
+
+    body {
+        background-color: #f8f8ff;
+    }
+</style>
 
 {% if latest_question_list %}
 <h1>Poll Questions</h1>
@@ -9,7 +17,7 @@
         {% if question.can_vote %}
         <a href="{% url 'polls:detail' question.id %}">vote</a>
         {% else %}
-        <label>voting period has end</label>
+        <label>closed</label>
         {% endif %}
         <a href="{% url 'polls:results' question.id %}">results</a>
     </li>
