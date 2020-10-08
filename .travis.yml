@@ -11,4 +11,5 @@ install:
   - pip install Django
 
 script:
-  - python -m "mysite/manage.py test"
+  - cd mysite
+  - python ../b.py
