@@ -11,5 +11,4 @@ install:
   - pip install Django
 
 script:
-  - ls mysite
-  - python manage.py test
+  - python -m unittest discover -p "*_test.py"
