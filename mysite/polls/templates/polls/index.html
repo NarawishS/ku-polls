@@ -22,7 +22,6 @@
         <a href="{% url 'polls:results' question.id %}">results</a>
     </li>
     {% endfor %}
-    <a href="{% url 'polls:reset_polls' %}">reset</a>
 </ul>
 {% else %}
 <p>No polls are available.</p>
