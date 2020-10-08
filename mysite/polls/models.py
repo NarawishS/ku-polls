@@ -25,7 +25,6 @@ class Question(models.Model):
         :return
             true: if this question has been published for less than a day
         """
-
         now = timezone.now()
         return now - timezone.timedelta(days=1) <= self.pub_date <= now
 
@@ -39,7 +38,6 @@ class Question(models.Model):
         :return
             true: if pub_date has pass
         """
-
         return self.pub_date <= timezone.now()
 
     def can_vote(self):
@@ -48,27 +46,22 @@ class Question(models.Model):
         :return
             true: if this question is_published and hasn't pass end_date
         """
-
         return self.pub_date <= timezone.now() <= self.end_date
 
     can_vote.admin_order_field = 'end_date'
     can_vote.boolean = True
     can_vote.short_description = 'Open?'
 
-    def total_votes(self):
-        sum = 0
-        for i in range(self.choice_set.count()):
-            sum += self.choice_set.get(pk=1 + i).votes
-        return sum
-
-    def reset_votes(self):
-        for i in range(self.choice_set.count()):
-            choice = self.choice_set.get(pk=1 + i)
-            choice.votes = 0
-            choice.save()
-
 
 class Choice(models.Model):
+    """Choice of Question contain text of this choice and total vote for this choice.
+
+    :arg
+        question: Question that contain this choice
+        choice_test(str): detail of this choice
+        votes(int): total vote for this choice
+    """
+
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     choice_text = models.CharField(max_length=200)
     votes = models.IntegerField(default=0)
