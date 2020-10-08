@@ -169,3 +169,26 @@ class QuestionDetailViewTests(TestCase):
         url = reverse('polls:detail', args=(past_question.id,))
         response = self.client.get(url)
         self.assertContains(response, past_question.question_text)
+
+
+class QuestionResetViewTests(TestCase):
+    def test_total_vote(self):
+        question = create_question(question_text="1", days=5)
+        question.choice_set.create(choice_text="a", votes=0)
+        question.choice_set.create(choice_text="b", votes=2)
+        self.assertEqual(2, question.total_votes())
+
+    def test_reset_vote(self):
+        question = create_question(question_text="1", days=5)
+        question.choice_set.create(choice_text="a", votes=0)
+        question.choice_set.create(choice_text="b", votes=1)
+        question.choice_set.create(choice_text="c", votes=2)
+        self.assertEqual(3, question.total_votes())
+        question.reset_votes()
+        self.assertEqual(0, question.total_votes())
+        c = question.choice_set.get(pk=1)
+        c.votes += 10
+        c.save()
+        self.assertEqual(10, question.total_votes())
+        question.reset_votes()
+        self.assertEqual(0, question.total_votes())

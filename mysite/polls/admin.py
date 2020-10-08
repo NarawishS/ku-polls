@@ -1,14 +1,18 @@
+"""Register models to show in admin here."""
 from django.contrib import admin
-
 from .models import Choice, Question
 
 
 class ChoiceInline(admin.TabularInline):
+    """Show detail of Choice in Question."""
+
     model = Choice
     extra = 3
 
 
 class QuestionAdmin(admin.ModelAdmin):
+    """Show detail of Question."""
+
     fieldsets = [
         (None, {'fields': ['question_text']}),
         ('Date information', {'fields': ['pub_date', 'end_date'], 'classes': ['collapse']}),
