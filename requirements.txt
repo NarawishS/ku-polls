@@ -1,0 +1,4 @@
+DEBUG=True
+TEMPLATE_DEBUG=True
+SECRET_KEY=key
+DATABASE_URL=mysql://myuser:mypassword@myhost/mydatabase

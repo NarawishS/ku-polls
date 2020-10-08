@@ -9,6 +9,7 @@ install:
   - pip install -r requirements.txt
   - pip install coverage
   - pip install Django
+  - pip install decouple
 
 script:
   - cd mysite
