@@ -1,3 +1,4 @@
+"""urlpatterns of this apps."""
 from django.urls import path
 
 from . import views
