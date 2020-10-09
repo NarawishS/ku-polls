@@ -1,9 +1,14 @@
 [run]
-# measure branch coverage
+# measure branch coverage, too
 branch = True
-# don't test the Python standard library
+# don't measure python standard library (this is the default)
 cover_pylib = False
-# omit uninteresting files
+# omit uninteresting stuff
 omit =
+    /usr/*
+    mysite/*   # the main application
     polls/tests.py
     polls/migrations/*
+# explicitly include the main app
+include =
+    polls/*
