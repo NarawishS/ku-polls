@@ -6,10 +6,11 @@ git:
   depth: 1
 
 env:
-  - DEBUG="True"
-  - TEMPLATE_DEBUG="True"
-  - SECRET_KEY="secretkey"
-  - DATABASE_URL="mysql://myuser:mypassword@myhost/mydatabase"
+  global:
+    - DEBUG="True"
+    - TEMPLATE_DEBUG="True"
+    - SECRET_KEY="secretkey"
+    - DATABASE_URL="mysql://myuser:mypassword@myhost/mydatabase"
 
 install:
   - pip install -r requirements.txt
