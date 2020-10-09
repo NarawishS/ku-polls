@@ -1,4 +1,6 @@
 # ku-polls
+[![Build Status](https://travis-ci.com/NarawishS/ku-polls.svg?branch=master)](https://travis-ci.com/NarawishS/ku-polls)
+[![codecov](https://codecov.io/gh/NarawishS/demo-pyci/branch/master/graph/badge.svg?token=VAS21ZTAK3)](https://codecov.io/gh/NarawishS/demo-pyci)
 A web application for conduction a poll or survey. 
 ## Project Documentation
 * [Project Wiki](https://github.com/NarawishS/ku-polls/wiki)  
