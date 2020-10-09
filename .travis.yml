@@ -5,18 +5,12 @@ python: "3.7"
 git:
   depth: 1
 
-env:
-  global:
-    - DEBUG="True"
-    - TEMPLATE_DEBUG="True"
-    - SECRET_KEY="secretkey"
-    - DATABASE_URL="mysql://myuser:mypassword@myhost/mydatabase"
-
 install:
   - pip install -r requirements.txt
-  - pip install coverage
-  - pip install Django
-  - pip install decouple
+
+before_script:
+   - echo "DEBUG = False" >> .env
+   - echo "SECRET_KEY = $ SECRET_KEY" >> .env
 
 script:
   - cd mysite
