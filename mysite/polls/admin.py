@@ -1,6 +1,6 @@
 """Register models to show in admin here."""
 from django.contrib import admin
-from mysite.polls.models import Choice, Question
+from .models import Choice, Question
 
 
 class ChoiceInline(admin.TabularInline):
