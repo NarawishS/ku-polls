@@ -10,10 +10,13 @@
 </style>
 
 {% if latest_question_list %}
-<h1>Poll Questions</h1>
+<h1>Poll Questions available for {{ user.username }}</h1>
+<p>
+    <a href="{% url 'logout' %}">Logout</a>
+</p>
 <ul>
     {% for question in latest_question_list %}
-    <li><p>{{question.question_text}}</p>
+    <li>{{question.question_text}}
         {% if question.can_vote %}
         <a href="{% url 'polls:detail' question.id %}">vote</a>
         {% else %}
