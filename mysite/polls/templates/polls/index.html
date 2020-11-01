@@ -1,0 +1,31 @@
+<style>
+    a {
+        font-size: 120%;
+        padding: 2px;
+    }
+
+    body {
+        background-color: #f8f8ff;
+    }
+</style>
+
+{% if latest_question_list %}
+<h1>Poll Questions available for {{ user.username }}</h1>
+<p>
+    <a href="{% url 'logout' %}">Logout</a>
+</p>
+<ul>
+    {% for question in latest_question_list %}
+    <li>{{question.question_text}}
+        {% if question.can_vote %}
+        <a href="{% url 'polls:detail' question.id %}">vote</a>
+        {% else %}
+        <label>closed</label>
+        {% endif %}
+        <a href="{% url 'polls:results' question.id %}">results</a>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No polls are available.</p>
+{% endif %}
