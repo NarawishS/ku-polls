@@ -69,3 +69,10 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+
+
+class Vote(models.Model):
+    """Vote associate with Choice from Question."""
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    choice = models.ForeignKey(Choice, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, null=True, blank=True, on_delete=models.CASCADE)
