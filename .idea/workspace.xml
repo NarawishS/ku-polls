@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ca89720-b512-451c-8375-1065ec221335" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.coveragerc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/.flake8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0002_question_end_date.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/static/polls/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/admin/base_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/registration/logged_out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="43299371-6006-4ba6-9efe-bdaf166d9507" />
+  <component name="ProjectId" id="1hMexVAjg7pOpuaLK1pAVFXUENY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/polls/models" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\home\workspace\ku-polls\mysite\polls\tests" />
+      <recent name="C:\Users\ASUS\home\workspace\ku-polls\mysite\polls\models" />
+      <recent name="C:\Users\ASUS\home\workspace\ku-polls" />
+      <recent name="C:\Users\ASUS\home\workspace\ku-polls\mysite" />
+      <recent name="C:\Users\ASUS\home\workspace\ku-polls\mysite\polls" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\home\workspace\ku-polls\mysite\polls\models" />
+      <recent name="C:\Users\ASUS\home\workspace\ku-polls\mysite\polls\templates\admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for mysite.polls.tests.test_a">
+    <configuration name="Unittests for mysite.polls.tests.test_a" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ku-polls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mysite.polls.tests.test_a&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for mysite.polls.tests.test_a.QuestionModelTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ku-polls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/polls/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mysite.polls.tests.test_a.QuestionModelTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for mysite.polls.tests.test_a.QuestionModelTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ku-polls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mysite.polls.tests.test_a.QuestionModelTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for mysite.polls.tests.test_a.QuestionModelTests.test_was_published_recently_with_future_question" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ku-polls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mysite.polls.tests.test_a.QuestionModelTests.test_was_published_recently_with_future_question&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for mysite.polls.tests.test_votiing" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ku-polls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/polls/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mysite.polls.tests.test_votiing&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for mysite.polls.tests.test_votiing" />
+        <item itemvalue="Python tests.Unittests for mysite.polls.tests.test_a.QuestionModelTests.test_was_published_recently_with_future_question" />
+        <item itemvalue="Python tests.Unittests for mysite.polls.tests.test_a.QuestionModelTests" />
+        <item itemvalue="Python tests.Unittests for mysite.polls.tests.test_a" />
+        <item itemvalue="Python tests.Unittests for mysite.polls.tests.test_a.QuestionModelTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ca89720-b512-451c-8375-1065ec221335" name="Default Changelist" comment="" />
+      <created>1599825635604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599825635604</updated>
+      <workItem from="1600341926157" duration="667000" />
+      <workItem from="1600345577881" duration="648000" />
+      <workItem from="1600354087379" duration="789000" />
+      <workItem from="1600418875082" duration="144000" />
+      <workItem from="1600498820645" duration="32000" />
+      <workItem from="1600498996658" duration="29663000" />
+      <workItem from="1600533521111" duration="660000" />
+      <workItem from="1600657293970" duration="1169000" />
+      <workItem from="1600675094894" duration="237000" />
+      <workItem from="1601141756248" duration="4399000" />
+      <workItem from="1601146475784" duration="1317000" />
+      <workItem from="1601172308898" duration="3000" />
+      <workItem from="1601184563314" duration="734000" />
+      <workItem from="1601186228230" duration="248000" />
+      <workItem from="1601908473732" duration="617000" />
+      <workItem from="1602163222795" duration="15083000" />
+      <workItem from="1602178475903" duration="1000" />
+      <workItem from="1602244871631" duration="2810000" />
+      <workItem from="1602355791058" duration="16000" />
+      <workItem from="1603441452738" duration="3595000" />
+      <workItem from="1603465971368" duration="14000" />
+      <workItem from="1603535901157" duration="90000" />
+      <workItem from="1603686088612" duration="7000" />
+      <workItem from="1604160862657" duration="3340000" />
+      <workItem from="1604222552976" duration="487000" />
+      <workItem from="1604223246226" duration="2154000" />
+    </task>
+    <task id="LOCAL-00011" summary="fix admin site">
+      <created>1600502813516</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600502813516</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add end_date, add is_published, add can_vote">
+      <created>1600502849149</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600502849149</updated>
+    </task>
+    <task id="LOCAL-00013" summary="format file">
+      <created>1600502876526</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600502876526</updated>
+    </task>
+    <task id="LOCAL-00014" summary="makemigrations for end date">
+      <created>1600502908668</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600502908668</updated>
+    </task>
+    <task id="LOCAL-00015" summary="change some function, set some code for admin">
+      <created>1600510608136</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600510608136</updated>
+    </task>
+    <task id="LOCAL-00016" summary="delete file">
+      <created>1600510621128</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600510621128</updated>
+    </task>
+    <task id="LOCAL-00017" summary="make new migrations">
+      <created>1600510639394</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600510639394</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add end_date to admin page">
+      <created>1600510655833</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600510655833</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add test case for is_published and is_open">
+      <created>1600516162377</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600516162377</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add path for default page">
+      <created>1600527302411</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600527302411</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add back button">
+      <created>1600527341612</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600527341612</updated>
+    </task>
+    <task id="LOCAL-00022" summary="show vote to polls that is open&#10;add link to results page">
+      <created>1600527461298</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1600527461298</updated>
+    </task>
+    <task id="LOCAL-00023" summary="don't show link to vote again if poll is close&#10;add table for choices&#10;add link to index page">
+      <created>1600527527242</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1600527527242</updated>
+    </task>
+    <task id="LOCAL-00024" summary="change filter for queryset">
+      <created>1600527561454</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1600527561454</updated>
+    </task>
+    <task id="LOCAL-00025" summary="remove value of SECRET_KEY and DEBUG">
+      <created>1600528165092</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1600528165092</updated>
+    </task>
+    <task id="LOCAL-00026" summary="remove redundant import&#10;fix queryset">
+      <created>1600530764610</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1600530764610</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add some style">
+      <created>1600530790036</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1600530790036</updated>
+    </task>
+    <task id="LOCAL-00028" summary="code format">
+      <created>1600530818808</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1600530818808</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add docstring">
+      <created>1602171160584</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1602171160585</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add docstring">
+      <created>1602171741458</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1602171741458</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add docstring">
+      <created>1602172036225</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1602172036225</updated>
+    </task>
+    <task id="LOCAL-00032" summary="remove redundant code">
+      <created>1602172506632</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1602172506632</updated>
+    </task>
+    <task id="LOCAL-00033" summary="remove file">
+      <created>1602172635338</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1602172635338</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fix error">
+      <created>1602174573449</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1602174573449</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add docstring">
+      <created>1602175329286</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1602175329286</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add ignore">
+      <created>1602175453670</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1602175453670</updated>
+    </task>
+    <task id="LOCAL-00037" summary="file for travis">
+      <created>1602176442869</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1602176442869</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fix script">
+      <created>1602176588849</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1602176588849</updated>
+    </task>
+    <task id="LOCAL-00039" summary="fix script">
+      <created>1602176854925</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1602176854925</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fix script">
+      <created>1602176977885</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1602176977885</updated>
+    </task>
+    <task id="LOCAL-00041" summary="fix script">
+      <created>1602177330046</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1602177330046</updated>
+    </task>
+    <task id="LOCAL-00042" summary="change dir and fix script">
+      <created>1602177573709</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1602177573709</updated>
+    </task>
+    <task id="LOCAL-00043" summary="change dir">
+      <created>1602177763746</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1602177763746</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fix script">
+      <created>1602177801947</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1602177801947</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix script">
+      <created>1602178002143</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1602178002143</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fix script">
+      <created>1602178081139</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1602178081139</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fix script">
+      <created>1602178259098</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1602178259098</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fix requirements">
+      <created>1602178365529</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1602178365529</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add env">
+      <created>1602245093970</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1602245093970</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fix env">
+      <created>1602245426386</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1602245426387</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fix env">
+      <created>1602246159549</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1602246159549</updated>
+    </task>
+    <task id="LOCAL-00052" summary="add import">
+      <created>1602246462379</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1602246462379</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix script and import">
+      <created>1602246476091</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1602246476091</updated>
+    </task>
+    <task id="LOCAL-00054" summary="add badge">
+      <created>1602246945088</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1602246945088</updated>
+    </task>
+    <task id="LOCAL-00055" summary="add test for coverage">
+      <created>1602246960308</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1602246960308</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix markdown for codecov">
+      <created>1602247119294</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1602247119294</updated>
+    </task>
+    <task id="LOCAL-00057" summary="config for code coverage">
+      <created>1602247203662</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1602247203662</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fix omit">
+      <created>1602247528833</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1602247528833</updated>
+    </task>
+    <task id="LOCAL-00059" summary="some basic django auth added">
+      <created>1603535945147</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1603535945147</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change filter for queryset" />
+    <MESSAGE value="remove value of SECRET_KEY and DEBUG" />
+    <MESSAGE value="remove redundant import&#10;fix queryset" />
+    <MESSAGE value="add some style" />
+    <MESSAGE value="code format" />
+    <MESSAGE value="remove redundant code" />
+    <MESSAGE value="remove file" />
+    <MESSAGE value="fix error" />
+    <MESSAGE value="add docstring" />
+    <MESSAGE value="add ignore" />
+    <MESSAGE value="file for travis" />
+    <MESSAGE value="change dir and fix script" />
+    <MESSAGE value="change dir" />
+    <MESSAGE value="fix script" />
+    <MESSAGE value="fix requirements" />
+    <MESSAGE value="add env" />
+    <MESSAGE value="fix env" />
+    <MESSAGE value="add import" />
+    <MESSAGE value="fix script and import" />
+    <MESSAGE value="add badge" />
+    <MESSAGE value="add test for coverage" />
+    <MESSAGE value="fix markdown for codecov" />
+    <MESSAGE value="config for code coverage" />
+    <MESSAGE value="fix omit" />
+    <MESSAGE value="some basic django auth added" />
+    <option name="LAST_COMMIT_MESSAGE" value="some basic django auth added" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600531565412">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600531565412" />
+    <state x="1140" y="302" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604163781888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1140" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604163781888" />
+    <state x="1104" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604164302599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1104" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604164302599" />
+    <state x="312" y="5" key="CommitChangelistDialog2" timestamp="1603535944358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="5" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603535944358" />
+    <state width="314" height="242" key="DatabaseViewActions_Filter" timestamp="1602178250766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="314" height="242" key="DatabaseViewActions_Filter/0.0.1920.1040@0.0.1920.1040" timestamp="1602178250766" />
+    <state x="142" y="95" key="DiffContextDialog" timestamp="1600530806560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="142" y="95" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600530806560" />
+    <state x="207" y="218" key="FileChooserDialogImpl" timestamp="1604163890634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="207" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604163890634" />
+    <state width="1865" height="264" key="GridCell.Tab.0.bottom" timestamp="1604224411670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604224411670" />
+    <state width="1865" height="264" key="GridCell.Tab.0.center" timestamp="1604224411669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604224411669" />
+    <state width="1865" height="264" key="GridCell.Tab.0.left" timestamp="1604224411669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604224411669" />
+    <state width="1865" height="264" key="GridCell.Tab.0.right" timestamp="1604224411669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604224411669" />
+    <state width="902" height="329" key="GridCell.Tab.1.bottom" timestamp="1600500669598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600500669598" />
+    <state width="902" height="329" key="GridCell.Tab.1.center" timestamp="1600500669598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="329" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600500669598" />
+    <state width="902" height="329" key="GridCell.Tab.1.left" timestamp="1600500669598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="329" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600500669598" />
+    <state width="902" height="329" key="GridCell.Tab.1.right" timestamp="1600500669598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="329" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600500669598" />
+    <state width="902" height="329" key="GridCell.Tab.2.bottom" timestamp="1600500669599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="329" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600500669599" />
+    <state width="902" height="329" key="GridCell.Tab.2.center" timestamp="1600500669599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="329" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600500669599" />
+    <state width="902" height="329" key="GridCell.Tab.2.left" timestamp="1600500669598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="329" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600500669598" />
+    <state width="902" height="329" key="GridCell.Tab.2.right" timestamp="1600500669599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="329" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600500669599" />
+    <state width="274" height="594" key="HiddenNamespacesPopup" timestamp="1600531552924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="274" height="594" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600531552924" />
+    <state x="904" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602247530059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="904" y="190" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602247530059" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1600500665643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1600500665643" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-2" timestamp="1600519735302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1600519735302" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1600504048674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600504048674" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ku_polls$Unittests_for_polls_tests_tests_QuestionModelTests.coverage" NAME="Unittests for polls.tests.tests.QuestionModelTests Coverage Results" MODIFIED="1604224361909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />
+    <SUITE FILE_PATH="coverage/ku_polls$Unittests_for_test_votiing_VotingTests.coverage" NAME="Unittests for test_votiing.VotingTests Coverage Results" MODIFIED="1604224202650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite/polls/tests" />
+    <SUITE FILE_PATH="coverage/ku_polls$Unittests_for_tests_QuestionModelTests.coverage" NAME="Unittests for tests.QuestionModelTests Coverage Results" MODIFIED="1604224406691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite/polls/tests" />
+    <SUITE FILE_PATH="coverage/ku_polls$Unittests_for_polls_tests_tests_QuestionModelTests_test_was_published_recently_with_future_question.coverage" NAME="Unittests for polls.tests.tests.QuestionModelTests.test_was_published_recently_with_future_question Coverage Results" MODIFIED="1604224359494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />
+  </component>
+</project>
