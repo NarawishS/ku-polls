@@ -1,5 +1,5 @@
 <style>
-    a {
+    a, label {
         font-size: 120%;
         padding: 2px;
     }
@@ -9,11 +9,17 @@
     }
 </style>
 
-{% if latest_question_list %}
-<h1>Poll Questions available for {{ user.username }}</h1>
+<h1>Poll Questions available</h1>
 <p>
+    {% if user.is_authenticated %}
+    <label>Hello {{ user.username }}</label>
     <a href="{% url 'logout' %}">Logout</a>
+    {% else %}
+    <label>Hello anonymous user</label>
+    <a href="{% url 'login' %}">Login</a>
+    {% endif %}
 </p>
+{% if latest_question_list %}
 <ul>
     {% for question in latest_question_list %}
     <li>{{question.question_text}}
