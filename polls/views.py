@@ -1,10 +1,13 @@
 """Views contain web response of this apps."""
 import logging
 
+from django.contrib.auth import user_logged_in, user_logged_out, user_login_failed
 from django.contrib.auth.decorators import login_required
+from django.dispatch import receiver
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
+from django.utils.datetime_safe import datetime
 from django.views import generic
 from django.utils import timezone
 
@@ -12,6 +15,42 @@ from .models import Choice, Question, Vote
 
 log = logging.getLogger("polls")
 logging.basicConfig(level=logging.INFO)
+
+
+def get_client_ip(request):
+    x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+    if x_forwarded_for:
+        ip = x_forwarded_for.split(',')[0]
+    else:
+        ip = request.META.get('REMOTE_ADDR')
+    return ip
+
+
+@receiver(user_logged_in)
+def log_user_logged_in(sender, request, user, **kwargs):
+    """Log when user login."""
+
+    ip = get_client_ip(request)
+    date = datetime.now()
+    log.info('Login user: %s , IP: %s , Date: %s', user, ip, str(date))
+
+
+@receiver(user_logged_out)
+def log_user_logged_out(sender, request, user, **kwargs):
+    """Log when user logout."""
+
+    ip = get_client_ip(request)
+    date = datetime.now()
+    log.info('Logout user: %s , IP: %s , Date: %s', user, ip, str(date))
+
+
+@receiver(user_login_failed)
+def log_user_login_failed(sender, request, credentials, **kwargs):
+    """Log when user fail to login."""
+
+    ip = get_client_ip(request)
+    date = datetime.now()
+    log.warning('Login user(failed): %s , IP: %s , Date: %s', credentials['username'], ip, str(date))
 
 
 class IndexView(generic.ListView):
@@ -94,4 +133,6 @@ def vote(request, question_id):
     # Always return an HttpResponseRedirect after successfully dealing
     # with POST data. This prevents data from being posted twice if a
     # user hits the Back button.
+    date = datetime.now()
+    log.info("User: %s, Poll's ID: %d, Date: %s.", user, question_id, str(date))
     return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
