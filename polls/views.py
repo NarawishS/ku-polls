@@ -1,11 +1,17 @@
 """Views contain web response of this apps."""
+import logging
+
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
 from django.views import generic
 from django.utils import timezone
 
-from .models import Choice, Question
+from .models import Choice, Question, Vote
+
+log = logging.getLogger("polls")
+logging.basicConfig(level=logging.INFO)
 
 
 class IndexView(generic.ListView):
@@ -55,6 +61,7 @@ class ResultsView(generic.DetailView):
     template_name = 'polls/results.html'
 
 
+@login_required()
 def vote(request, question_id):
     """
     Vote the choice of question id.
@@ -79,9 +86,12 @@ def vote(request, question_id):
             'error_message': "You didn't select a choice.",
         })
     else:
-        selected_choice.votes += 1
-        selected_choice.save()
-        # Always return an HttpResponseRedirect after successfully dealing
-        # with POST data. This prevents data from being posted twice if a
-        # user hits the Back button.
-        return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
+        user = request.user
+        Vote.objects.update_or_create(user=user, question=question, defaults={'choice': selected_choice})
+        for choice in question.choice_set.all():
+            choice.votes = Vote.objects.filter(question=question).filter(choice=choice).count()
+            choice.save()
+    # Always return an HttpResponseRedirect after successfully dealing
+    # with POST data. This prevents data from being posted twice if a
+    # user hits the Back button.
+    return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
